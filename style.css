@@ -1,0 +1,150 @@
+#container{
+    margin:0% 10% 0% 8%;
+}
+
+.menu{
+    display:flex;
+    list-style-type:none;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+li{
+    margin:0.27em 3em 0em 3.5em;
+}
+
+.st:hover{
+    color:rgba(0, 99, 237, 0.775);
+    border-bottom: 2px solid rgba(0, 99, 237, 0.775);
+}
+
+
+#sign-up{
+    background: rgb(30, 90, 241);
+    border-radius: 16px;
+    padding:4px 12px 0px 12px;
+    color:white;
+    text-align: center; 
+    margin-right:0em;
+    margin-left: 0.1em; 
+}
+
+#sign-up:hover{
+    background:rgb(113, 151, 248);
+
+}
+
+#sign-up:hover{
+    color:none;
+    border-bottom:none;
+}
+
+.flex-item{
+    margin-top:3.8em;
+    
+}
+
+
+
+.grid-container{
+    display:grid;
+    margin:1.5em 0em 0em 0em;
+    grid-template-columns: auto auto auto;
+    column-gap: 1.6em;
+}
+
+.get_started{
+    border-radius: 20px;
+    border: 2px solid rgb(44, 121, 237);
+    padding:10px 18px 10px 18px;
+    text-align: center;
+    margin:0em  3.2em 0em 3.2em;
+    font-size: 200;
+}
+
+.get_started:hover{
+    background:rgb(113, 151, 248,0.2);
+    
+}
+
+.grid-item-1{
+    border: 2px solid rgb(238, 191, 103);
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+.grid-item-2{
+    border: 2px solid rgb(53, 224, 133);
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+.grid-item-3{
+    border: 2px solid rgb(44, 121, 237);
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+.list-1{
+    list-style: none;
+}
+
+.list-1 li:before{
+    content:'\2714\0020' ;
+}
+
+.basic{
+    background:rgb(238, 191, 103);
+    border-radius: 16px;
+    text-align:center;
+    padding:10px 18px 10px 18px;
+    margin:-1.2em  3.2em 0em 3.2em;
+}
+
+.Standard{
+    background:rgb(44, 121, 237);
+    border-radius: 16px;
+    text-align:center;
+    padding:10px 18px 10px 18px;
+    margin:-1.2em  3.2em 0em 3.2em;
+}
+
+.Premium{
+    background:rgb(53, 224, 133);
+    border-radius: 16px;
+    text-align:center;
+    padding:10px 18px 10px 18px;
+    margin:-1.2em  3.2em 0em 3.2em;
+}
+
+b{
+    font-size:1.8em;
+    font-family:'Source Sans Pro', sans-serif;
+    margin-top: 0px;
+}
+
+.sp{
+    text-align:center;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight:400;
+    font-size:3.5em;
+    margin-bottom: 0.02em;
+    margin-top:1em;
+}
+
+.sp1{
+    text-align:center;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight:300;
+    font-size:1em;
+    margin-bottom: 6.5em;
+    margin-top:0.7em;
+}
+
+h3{
+    font-family:'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 1.23em;
+    margin-right: 14em;
+    margin-top: 0.1em;
+    margin-bottom: 0.2em;
+}
